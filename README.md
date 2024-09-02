@@ -34,6 +34,7 @@ perl Z1+install.pl
 そうでなくとも、PATHを通したディレクトリに置いておくと便利なので、例えば、
 ```bash
 cp Z1+ ~/local/bin/
+export PATH="$HOME/local/bin:$PATH"
 ```
 などとしておくと、どこからでも `Z1+` で実行できるようになる。
 
